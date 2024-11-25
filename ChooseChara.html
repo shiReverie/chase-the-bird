@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="ChooseCharaStyle.css" />
+    <title>Choose character</title>
+</head>
+<body>
+    <div id="story" onclick="showCharas()">
+        <p>
+            It was a usual morning for Chase and his friends.
+            Once they overheard about a mysterious apple that can grant their
+            one wish. So out of curiosity they went seeking that mythical apple
+            <br />
+            <br />
+                                                          click to continue ->
+        </p>
+    </div>
+    <div>
+        <h3 id="chooseCharaH3" style="display: none;">Choose a character!</h3>
+    </div>
+    <div id="charas" style="display: none;">
+        <button id="Chase" title="Chase. Speed +1" onclick="startGame('Chase')"></button>
+        <button id="Sylvie" title="Sylvie. Health +1"  onclick="startGame('Sylvie')"></button>
+        <button id="Smokey" title="Smokey. Can destroy 2 obstacles"  onclick="startGame('Smokey')"></button>
+        <button id="Dozy" title="Dozy. Can restore health each 20s"  onclick="startGame('Dozy')"></button>
+    </div>
+    <script src="ChooseCharaScriptjs.js"></script>
+</body>
+</html>

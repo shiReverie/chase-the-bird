@@ -1,0 +1,34 @@
+﻿body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("C:/Users/5/Desktop/мои рисунки/game/bg_game1.jpg");
+    background-size: cover;
+}
+
+#scoreBoard {
+    display: flex;
+    justify-content: space-between;
+    width: 800px; /* Same width as the canvas */
+    color: white; /* Text color */
+    font-size: 1.5em; /* Increase font size */
+    margin: 10px 0; /* Spacing above the canvas */
+}
+
+canvas {
+    display: block;
+    border: 1px solid #000; /* Optional: Canvas border */
+}
+
+.blur-background {
+    width: 80%;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.5); /* semi-transparent background */
+    backdrop-filter: blur(100px); /* blurring the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #000;
+}
